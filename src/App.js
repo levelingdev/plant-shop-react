@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import LandingPage from './pages/LandingPage';
-import ProductsPage from './pages/ProductsPage';
-import CartPage from './pages/CartPage';
+import LandingPage from './components/pages/LandingPage';
+import ProductsPage from './components/pages/ProductsPage';
+import CartPage from './components/pages/CartPage';
 
 function App() {
   const [cart, setCart] = useState({});
